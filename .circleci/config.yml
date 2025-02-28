@@ -27,7 +27,7 @@ jobs:
           command: |
             TAG=$CIRCLE_BUILD_NUM
             ((TAG--))
-            git clone https://github.com/CDIT-02/eks-argo-todo-app-kube-manifest.git
+            git clone https://github.com/b1singh/eks-argo-todo-app-kube-manifest.git
             git config --global user.email "singhb132@gmail.com"
             git config --global user.name "b1singh"
             cd eks-argo-todo-app-kube-manifest
